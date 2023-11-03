@@ -13,8 +13,8 @@ Given an image, the goal is to predict the digit it represents. For instance, gi
 - Libraries: NumPy, Pandas
 ### Neural Network Architecture
 I built a neural network with a single hidden layer:
-- Input: $X$ with dimensions $(\text{n\_pixel} \times m)$, where $\text{n\_pixel}$ is the number of pixels in the image, and $m$ is the number of images in the training set.
-- Hidden Layer: $n\_units$ neurons with the $ReLU$ activation function.
+- Input: $X$ with dimensions $(\text{nPixel} \times m)$, where $\text{nPixel}$ is the number of pixels in the image, and $m$ is the number of images in the training set.
+- Hidden Layer: $nUnits$ neurons with the $ReLU$ activation function.
 - Output Layer: 10 neurons representing digits 0 to 9, with the softmax activation function.
 
 ### Forward Propagation
